@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Mon Jan 29 2024 05:05:57 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Tue Jan 30 2024 07:24:51 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="65b6ea50c78b959ebd58fde5" data-wf-site="657d3943eac136d96df5fbc0">
 <head>
   <meta charset="utf-8">
@@ -16,6 +16,10 @@
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/university-of-alberta-minecraft-club.webflow.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Great Vibes:400","PT Sans:400,400italic,700,700italic"]  }});</script>
   <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
   <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
@@ -25,7 +29,7 @@
     <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar-logo-left-container-3 navbar-container w-nav">
       <div class="container-8">
         <div class="wrapper">
-          <a href="#" class="club-logo w-nav-brand"><img src="images/Minecraft_Club_Logo.png" loading="lazy" width="94" sizes="(max-width: 479px) 21vw, 94px" alt="" srcset="images/Minecraft_Club_Logo-p-500.png 500w, images/Minecraft_Club_Logo-p-800.png 800w, images/Minecraft_Club_Logo-p-1080.png 1080w, images/Minecraft_Club_Logo-p-1600.png 1600w, images/Minecraft_Club_Logo-p-2000.png 2000w, images/Minecraft_Club_Logo.png 2347w"></a>
+          <a href="#" class="club-logo w-nav-brand"><img src="images/Minecraft_Club_Logo.png" loading="lazy" width="94" sizes="(max-width: 479px) 20vw, 94px" alt="" srcset="images/Minecraft_Club_Logo-p-500.png 500w, images/Minecraft_Club_Logo-p-800.png 800w, images/Minecraft_Club_Logo-p-1080.png 1080w, images/Minecraft_Club_Logo-p-1600.png 1600w, images/Minecraft_Club_Logo-p-2000.png 2000w, images/Minecraft_Club_Logo.png 2347w"></a>
           <nav role="navigation" class="nav-menu-wrapper-3 w-nav-menu">
             <ul role="list" class="nav-menu-two-3 w-list-unstyled">
               <li>
@@ -33,6 +37,12 @@
               </li>
               <li>
                 <a href="plugins.html" class="navbar-entry">Plugins</a>
+              </li>
+              <li>
+                <a href="server-info.html" aria-current="page" class="navbar-entry w--current">Server Info</a>
+              </li>
+              <li>
+                <a href="faq.html" class="navbar-entry">FAQ</a>
               </li>
               <li>
                 <div data-hover="false" data-delay="0" class="nav-dropdown-3 w-dropdown">
@@ -59,11 +69,11 @@
                 </div>
               </li>
               <li class="mobile-margin-top-12">
-                <a href="https://uofa-minecraft-server.fandom.com/wiki/UofA_Minecraft_Club_Server_Wiki" class="button-primary-4 w-button">Wiki</a>
+                <a href="https://uofa-minecraft-server.fandom.com/wiki/UofA_Minecraft_Club_Server_Wiki" class="wiki-button w-button">Wiki</a>
               </li>
             </ul>
           </nav>
-          <a href="https://discord.gg/XPksUMuQ" target="_blank" class="link-block-5 w-inline-block">
+          <a href="https://discord.gg/XPksUMuQ" target="_blank" class="discord-button w-inline-block">
             <div class="html-embed-2 w-embed w-iframe"><iframe src="https://discord.com/widget?id=897908101741682710&theme=dark" width="350" height="74" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></div>
           </a>
           <div class="menu-button-3 w-nav-button">
@@ -75,7 +85,7 @@
   </div>
   <div class="w-layout-blockcontainer content w-container">
     <div>
-      <h1 class="heading-5">SMP</h1>
+      <h1 class="main-heading">SMP</h1>
       <div>
         <h1 class="subheading-1">Specs</h1>
         <p class="paragraph-8">Ryzen 9 5950X<br>8 GB ram<br>230 GB storage<br></p>
@@ -90,7 +100,7 @@
       </div>
     </div>
     <div>
-      <h1 class="heading-5">Creative</h1>
+      <h1 class="main-heading">Creative</h1>
       <div>
         <h1 class="subheading-1">Specs</h1>
         <p class="paragraph-8">Ryzen 9 5950X<br>7 GB ram<br>230 GB storage<br></p>
@@ -101,7 +111,7 @@
       </div>
     </div>
     <div>
-      <h1 class="heading-5">Velocity Proxy</h1>
+      <h1 class="main-heading">Velocity Proxy</h1>
       <div>
         <h1 class="subheading-1">Specs</h1>
         <p class="paragraph-8">Ryzen 9 5950X (Split from Creative)<br>1 GB ram<br>230 GB storage<br></p>
@@ -110,10 +120,10 @@
   </div>
   <section class="partners">
     <div class="container-9">
-      <h2 class="clients-title-2">Our Partners</h2>
+      <h2 class="partners-heading">Our Partners</h2>
       <div class="clients-wrapper-2">
-        <a href="https://bloom.host/" class="w-inline-block"><img src="images/Bloom_Host_Logo.svg" loading="lazy" alt="Arise Health logo" class="clients-image-2"></a>
-        <a href="https://www.2cml.org/" class="w-inline-block"><img src="images/2CML_Banner_Transparent-1.png" loading="lazy" width="300" sizes="(max-width: 479px) 88vw, 300px" alt="The Paak logo" srcset="images/2CML_Banner_Transparent-1-p-500.png 500w, images/2CML_Banner_Transparent-1-p-800.png 800w, images/2CML_Banner_Transparent-1-p-1080.png 1080w, images/2CML_Banner_Transparent-1-p-1600.png 1600w, images/2CML_Banner_Transparent-1-p-2000.png 2000w, images/2CML_Banner_Transparent-1-p-2600.png 2600w, images/2CML_Banner_Transparent-1-p-3200.png 3200w, images/2CML_Banner_Transparent-1.png 6400w" class="clients-image-2"></a>
+        <a href="https://bloom.host/" class="link-block-6 w-inline-block"><img src="images/BloomHostLogo.png" loading="lazy" width="280" sizes="(max-width: 479px) 61vw, 280px" alt="Arise Health logo" srcset="images/BloomHostLogo-p-500.png 500w, images/BloomHostLogo-p-800.png 800w, images/BloomHostLogo-p-1080.png 1080w, images/BloomHostLogo-p-1600.png 1600w, images/BloomHostLogo-p-2000.png 2000w, images/BloomHostLogo-p-2600.png 2600w, images/BloomHostLogo.png 2810w" class="clients-image-2"></a>
+        <a href="https://www.2cml.org/" class="link-block-7 w-inline-block"><img src="images/2CML_Banner_Transparent-1.png" loading="lazy" width="413" sizes="(max-width: 479px) 88vw, 413px" alt="The Paak logo" srcset="images/2CML_Banner_Transparent-1-p-500.png 500w, images/2CML_Banner_Transparent-1-p-800.png 800w, images/2CML_Banner_Transparent-1-p-1080.png 1080w, images/2CML_Banner_Transparent-1-p-1600.png 1600w, images/2CML_Banner_Transparent-1-p-2000.png 2000w, images/2CML_Banner_Transparent-1-p-2600.png 2600w, images/2CML_Banner_Transparent-1-p-3200.png 3200w, images/2CML_Banner_Transparent-1.png 6400w" class="clients-image-3"></a>
       </div>
     </div>
   </section>
