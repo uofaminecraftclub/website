@@ -1,519 +1,606 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Tue Jan 30 2024 07:46:09 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="658d07d2e6c4f8153ceda17c" data-wf-site="657d3943eac136d96df5fbc0">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Plugins</title>
-  <meta content="Plugins that are used within the University of Alberta Minecraft Club" name="description">
-  <meta content="Plugins" property="og:title">
-  <meta content="Plugins that are used within the University of Alberta Minecraft Club" property="og:description">
-  <meta content="Plugins" property="twitter:title">
-  <meta content="Plugins that are used within the University of Alberta Minecraft Club" property="twitter:description">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plugins - University of Alberta Minecraft Club</title>
+  <meta name="description" content="Plugins used within the University of Alberta Minecraft Club servers.">
+  <meta property="og:title" content="Plugins - University of Alberta Minecraft Club">
+  <meta property="og:description" content="Plugins used within the University of Alberta Minecraft Club servers.">
   <meta property="og:type" content="website">
-  <meta content="summary_large_image" name="twitter:card">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta content="Webflow" name="generator">
-  <link href="css/normalize.css" rel="stylesheet" type="text/css">
-  <link href="css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="css/university-of-alberta-minecraft-club.webflow.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">WebFont.load({  google: {    families: ["Great Vibes:400","PT Sans:400,400italic,700,700italic"]  }});</script>
-  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
-  <link href="images/webclip.png" rel="apple-touch-icon">
+
+  <!-- Favicon & Touch Icon -->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="images/webclip.png">
+
+  <!-- Google Font: PT Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="body-dark">
-  <div class="navbar">
-    <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar-logo-left-container-3 navbar-container w-nav">
-      <div class="container-8">
-        <div class="wrapper">
-          <a href="#" class="club-logo w-nav-brand"><img src="images/Minecraft_Club_Logo.png" loading="lazy" width="94" sizes="(max-width: 479px) 20vw, 94px" alt="" srcset="images/Minecraft_Club_Logo-p-500.png 500w, images/Minecraft_Club_Logo-p-800.png 800w, images/Minecraft_Club_Logo-p-1080.png 1080w, images/Minecraft_Club_Logo-p-1600.png 1600w, images/Minecraft_Club_Logo-p-2000.png 2000w, images/Minecraft_Club_Logo.png 2347w"></a>
-          <nav role="navigation" class="nav-menu-wrapper-3 w-nav-menu">
-            <ul role="list" class="nav-menu-two-3 w-list-unstyled">
-              <li>
-                <a href="index.html" class="navbar-entry">Home</a>
-              </li>
-              <li>
-                <a href="plugins.html" aria-current="page" class="navbar-entry w--current">Plugins</a>
-              </li>
-              <li>
-                <a href="server-info.html" class="navbar-entry">Server Info</a>
-              </li>
-              <li>
-                <a href="faq.html" class="navbar-entry">FAQ</a>
-              </li>
-              <li>
-                <div data-hover="false" data-delay="0" class="nav-dropdown-3 w-dropdown">
-                  <div class="nav-dropdown-toggle-3 w-dropdown-toggle">
-                    <div class="nav-dropdown-icon-3 w-icon-dropdown-toggle"></div>
-                    <div class="navbar-entry">Maps</div>
-                  </div>
-                  <nav class="nav-dropdown-list-3 shadow-three mobile-shadow-hide w-dropdown-list">
-                    <a href="https://smp7map.uofamc.ca/" class="nav-dropdown-link-3 w-dropdown-link">SMP</a>
-                    <a href="https://campus.uofamc.ca/" class="nav-dropdown-link-3 w-dropdown-link">Creative</a>
-                  </nav>
-                </div>
-              </li>
-              <li>
-                <div data-hover="false" data-delay="0" class="nav-dropdown-3 w-dropdown">
-                  <div class="nav-dropdown-toggle-3 w-dropdown-toggle">
-                    <div class="nav-dropdown-icon-3 w-icon-dropdown-toggle"></div>
-                    <div class="navbar-entry">Socials</div>
-                  </div>
-                  <nav class="nav-dropdown-list-3 shadow-three mobile-shadow-hide w-dropdown-list">
-                    <a href="https://www.twitch.tv/uofaminecraftclub" class="nav-dropdown-link-3 w-dropdown-link">Twitch</a>
-                    <a href="https://www.instagram.com/uofaminecraftclub?utm_source=ig_web_button_share_sheet&amp;igsh=ZDNlZDc0MzIxNw==" class="nav-dropdown-link-3 w-dropdown-link">Instagram</a>
-                  </nav>
-                </div>
-              </li>
-              <li class="mobile-margin-top-12">
-                <a href="https://uofa-minecraft-server.fandom.com/wiki/UofA_Minecraft_Club_Server_Wiki" class="wiki-button w-button">Wiki</a>
-              </li>
-            </ul>
-          </nav>
-          <a href="https://discord.gg/YsUspx5GPJ" target="_blank" class="discord-button w-inline-block">
-            <div class="html-embed-2 w-embed w-iframe"><iframe src="https://discord.com/widget?id=897908101741682710&theme=dark" width="350" height="74" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></div>
-          </a>
-          <div class="menu-button-3 w-nav-button">
-            <div class="w-icon-nav-menu"></div>
+<body class="page-dark">
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <!-- Club Logo -->
+      <a href="index.html" class="nav-brand" title="University of Alberta Minecraft Club">
+        <img src="images/Minecraft_Club_Logo.png" alt="UofA Minecraft Club Logo">
+      </a>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="mobile-nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        &#9776;
+      </button>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu" role="navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="plugins.html" class="nav-link active" aria-current="page">Plugins</a>
+        <a href="server-info.html" class="nav-link">Server Info</a>
+        <a href="faq.html" class="nav-link">FAQ</a>
+
+        <!-- Maps Dropdown -->
+        <div class="nav-dropdown">
+          <button class="nav-link dropdown-toggle" type="button" aria-haspopup="true">
+            Maps <span class="dropdown-icon">&#9662;</span>
+          </button>
+          <div class="dropdown-menu">
+            <a href="https://smp7map.uofamc.ca/" target="_blank" rel="noopener">SMP</a>
+            <a href="https://campus.uofamc.ca/" target="_blank" rel="noopener">Creative</a>
           </div>
         </div>
+
+        <!-- Socials Dropdown -->
+        <div class="nav-dropdown">
+          <button class="nav-link dropdown-toggle" type="button" aria-haspopup="true">
+            Socials <span class="dropdown-icon">&#9662;</span>
+          </button>
+          <div class="dropdown-menu">
+            <a href="https://www.twitch.tv/uofaminecraftclub" target="_blank" rel="noopener">Twitch</a>
+            <a href="https://www.instagram.com/uofaminecraftclub" target="_blank" rel="noopener">Instagram</a>
+          </div>
+        </div>
+
+        <!-- Wiki External Link -->
+        <a href="https://uofa-minecraft-server.fandom.com/wiki/UofA_Minecraft_Club_Server_Wiki" target="_blank" rel="noopener" class="btn-wiki">Wiki</a>
+      </nav>
+
+      <!-- Discord Embed Widget -->
+      <div class="discord-widget-wrapper">
+        <a href="https://discord.gg/YsUspx5GPJ" target="_blank" rel="noopener" title="Join our Discord">
+          <iframe src="https://discord.com/widget?id=897908101741682710&theme=dark" width="280" height="60" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        </a>
       </div>
     </div>
-  </div>
-  <div class="w-layout-blockcontainer content w-container">
-    <div>
-      <h1 class="main-heading">Table of Contents</h1>
-      <ol>
-        <li><a href="#AFKPlus" class="tag">AFKPlus</a></li>
-        <li><a href="#BuildersUtilities" class="tag">Builder's Utilities</a></li>
-        <li><a href="#CoralStay" class="tag">CoralStay</a></li>
-        <li><a href="#CustomHeads" class="tag">CustomHeads</a></li>
-        <li><a href="#DecentHolograms" class="tag">DecentHolograms</a></li>
-        <li><a href="#Dynmap" class="tag">Dynmap</a></li>
-        <li><a href="#Elevators" class="tag">Elevators</a></li>
-        <li><a href="#EpicRename" class="tag">EpicRename</a></li>
-        <li><a href="#EssentialsX" class="tag">EssentialsX</a></li>
-        <li><a href="#F3NPerm" class="tag">F3+N Perm</a></li>
-        <li><a href="#FAVS" class="tag">Fast Async Voxel Sniper</a></li>
-        <li><a href="#FAWE" class="tag">Fast Async World Edit</a></li>
-        <li><a href="#Graves" class="tag">Graves</a></li>
-        <li><a href="#GSit" class="tag">GSit</a></li>
-        <li><a href="#ImageMaps" class="tag">ImageMaps</a></li>
-        <li><a href="#JoinMessages" class="tag">Individual Join Messages</a></li>
-        <li><a href="#LightCleaner" class="tag">LightCleaner</a></li>
-        <li><a href="#MultiVerse" class="tag">MultiVerse</a></li>
-        <li><a href="#NotTooExpensive" class="tag">Not Too Expensive</a></li>
-        <li><a href="#Parties" class="tag">Parties</a></li>
-        <li><a href="#PlayerStats" class="tag">PlayerStats</a></li>
-        <li><a href="#PlayTime" class="tag">PlayTime</a></li>
-        <li><a href="#Plot2Dynmap" class="tag">Plot2Dynmap</a></li>
-        <li><a href="#PlotSquared" class="tag">PlotSquared</a></li>
-        <li><a href="#Pronouns" class="tag">Pronouns</a></li>
-        <li><a href="#SelfControl" class="tag">Self Control</a></li>
-        <li><a href="#SilkSpawners" class="tag">SilkSpawners</a></li>
-        <li><a href="#ttvChat" class="tag">ttvChat</a></li>
-        <li><a href="#SimpleVoiceChat" class="tag">Simple Voice Chat</a></li>
-        <li><a href="#WikiIntegration" class="tag">WikiIntegration</a></li>
-      </ol> 
-    </div>
-    
-  </div>
-  <div class="w-layout-blockcontainer content w-container">
-    <div id="AFKPlus">
-      <h1 class="main-heading">AFKPlus</h1>
-      <div id="w-node-f59246b4-cff0-beb1-6800-ef0439a214fd-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div class="w-layout-cell">
-          <div class="tag">SMP/CAMPUS</div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container">
+    <h1 class="page-title">Server Plugins</h1>
+
+    <!-- Table of Contents -->
+    <nav class="toc-box" aria-label="Plugin Table of Contents">
+      <h2 class="toc-title">Table of Contents</h2>
+      <ul class="toc-grid">
+        <li class="toc-item"><a href="#AFKPlus">AFKPlus</a></li>
+        <li class="toc-item"><a href="#BuildersUtilities">Builder's Utilities</a></li>
+        <li class="toc-item"><a href="#CoralStay">CoralStay</a></li>
+        <li class="toc-item"><a href="#CustomHeads">CustomHeads</a></li>
+        <li class="toc-item"><a href="#DecentHolograms">DecentHolograms</a></li>
+        <li class="toc-item"><a href="#Dynmap">Dynmap</a></li>
+        <li class="toc-item"><a href="#Elevators">Elevators</a></li>
+        <li class="toc-item"><a href="#EpicRename">EpicRename</a></li>
+        <li class="toc-item"><a href="#EssentialsX">EssentialsX</a></li>
+        <li class="toc-item"><a href="#F3NPerm">F3+N Perm</a></li>
+        <li class="toc-item"><a href="#FAVS">Fast Async Voxel Sniper</a></li>
+        <li class="toc-item"><a href="#FAWE">Fast Async World Edit</a></li>
+        <li class="toc-item"><a href="#Graves">Graves</a></li>
+        <li class="toc-item"><a href="#GSit">GSit</a></li>
+        <li class="toc-item"><a href="#ImageMaps">ImageMaps</a></li>
+        <li class="toc-item"><a href="#JoinMessages">Individual Join Messages</a></li>
+        <li class="toc-item"><a href="#LightCleaner">LightCleaner</a></li>
+        <li class="toc-item"><a href="#MultiVerse">MultiVerse</a></li>
+        <li class="toc-item"><a href="#NotTooExpensive">Not Too Expensive</a></li>
+        <li class="toc-item"><a href="#Parties">Parties</a></li>
+        <li class="toc-item"><a href="#PlayerStats">PlayerStats</a></li>
+        <li class="toc-item"><a href="#PlayTime">PlayTime</a></li>
+        <li class="toc-item"><a href="#Plot2Dynmap">Plot2Dynmap</a></li>
+        <li class="toc-item"><a href="#PlotSquared">PlotSquared</a></li>
+        <li class="toc-item"><a href="#Pronouns">Pronouns</a></li>
+        <li class="toc-item"><a href="#SelfControl">Self Control</a></li>
+        <li class="toc-item"><a href="#SilkSpawners">SilkSpawners</a></li>
+        <li class="toc-item"><a href="#ttvChat">ttvChat</a></li>
+        <li class="toc-item"><a href="#SimpleVoiceChat">Simple Voice Chat</a></li>
+        <li class="toc-item"><a href="#WikiIntegration">WikiIntegration</a></li>
+      </ul>
+    </nav>
+
+    <!-- Plugin List -->
+    <section class="plugin-list">
+      <!-- Plugin: AFKPlus -->
+      <article id="AFKPlus" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">AFKPlus</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-both">SMP / CAMPUS</span>
+            <a href="https://www.spigotmc.org/resources/afk.35065/" class="plugin-link" target="_blank" rel="noopener">spigotmc.org</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>The AFKPLUS plugin allows you to enter an AFK mode. An "AFK" title appears beside your name in the player list to show others that you are AFK. You automatically enter AFK mode after 2 minutes. However, you can manually enter the mode using <code>/afk</code>. While AFK, you cannot be attacked by mobs. However, other players can still attack you.</p>
         </div>
-        <div class="w-layout-cell cell">
-          <a href="https://www.spigotmc.org/resources/afk.35065/" class="link-main">spigotmc.org</a>
+      </article>
+
+      <!-- Plugin: Builder's Utilities -->
+      <article id="BuildersUtilities" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">Builder's Utilities</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-campus">CAMPUS</span>
+            <a href="https://www.spigotmc.org/resources/builders-utilities.42361/" class="plugin-link" target="_blank" rel="noopener">spigotmc.org</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>Used to prevent lots of block interactions like fences not connecting to each other, but that started causing issues so we turned it off. Now it just stops gravity blocks. Also lots of useful tools like:</p><ul><li>To open the banner creator menu, type <code>/banner</code></li><li>To open the armor color menu, type <code>/armorcolor</code></li><li>To open the secret blocks menu, type <code>/secretblocks</code> <em>[Requires advanced tools permission]</em></li><li>To toggle night vision, type <code>/nv</code></li><li>To toggle noclip mode, which allows you to travel through blocks, type <code>/nc</code></li><li>To toggle advanced fly mode, which disables the fly speedup and slowdown, type <code>/advfly</code></li></ul>
         </div>
+      </article>
+
+      <!-- Plugin: CoralStay -->
+      <article id="CoralStay" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">CoralStay</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-campus">CAMPUS</span>
+            <a href="https://www.spigotmc.org/resources/coralstay.60731/" class="plugin-link" target="_blank" rel="noopener">spigotmc.org</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>Corals do not die out of water.</p>
+        </div>
+      </article>
+
+      <!-- Plugin: CustomHeads -->
+      <article id="CustomHeads" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">CustomHeads</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-campus">CAMPUS</span>
+            <a href="https://www.spigotmc.org/resources/custom-heads-1-8-1-20.29057/" class="plugin-link" target="_blank" rel="noopener">spigotmc.org</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>The CustomHeads plugin allows you to add player heads to the game.<br>Type <code>/heads</code> to access the heads menu. From there, you can choose from a large selection of heads.<br>You can also get the head of a specific player by typing <code>/heads get &lt;player&gt;</code>.</p>
+        </div>
+      </article>
+
+      <!-- Plugin: DecentHolograms -->
+      <article id="DecentHolograms" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">DecentHolograms</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-campus">CAMPUS</span>
+            <a href="https://www.spigotmc.org/resources/decentholograms-1-8-1-20-4-papi-support-no-dependencies.96927/" class="plugin-link" target="_blank" rel="noopener">spigotmc.org</a> <a href="https://wiki.decentholograms.eu/general/commands/hologram" class="plugin-link" target="_blank" rel="noopener">documentation</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>Hovering text.<br><br><strong>This is an advanced tool. To use it, you must request access by filling out the form at #advanced-tools-request.</strong></p>
+        </div>
+      </article>
+
+      <!-- Plugin: Dynmap -->
+      <article id="Dynmap" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">Dynmap</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-both">SMP / CAMPUS</span>
+            <a href="https://legacy.curseforge.com/minecraft/bukkit-plugins/dynmap" class="plugin-link" target="_blank" rel="noopener">curseforge</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>The Dynmap allows you to view a map of the world in your browser that includes the live location of all players. You can also create markers on the map to mark important locations.</p>
+<p>You can view the map using the links in the top navigation bar.</p>
+<p>Your location is visible to other players by default. To toggle your location, use <code>/dynmap hide</code> and <code>/dynmap show</code>.</p>
+<p>Place a sign to add markers to the map. On the first line, type <code>[dynmap]</code>. On the second and third lines, type the name of the marker. On the fourth line, type <code>icon:&lt;icon-id&gt;</code>. Break the sign to remove the marker from the map.</p>
+<div class="dynmap-images">
+  <img src="images/imagemapsicons.png" alt="Available map icon IDs">
+  <img src="images/examplesign.png" alt="Example Dynmap sign format">
+</div>
+        </div>
+      </article>
+
+      <!-- Plugin: Elevators -->
+      <article id="Elevators" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">Elevators</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-campus">CAMPUS</span>
+            <a href="https://www.spigotmc.org/resources/simple-elevators-1-8-1-20.44462/" class="plugin-link" target="_blank" rel="noopener">spigotmc.org</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>The Simple Elevators plugin allows you to create working elevators. The full list of commands can be found at the plugin's page linked above.<br><br><strong>This is an advanced tool. To use it, you must request access by filling out the form at #advanced-tools-request.</strong></p>
+        </div>
+      </article>
+
+      <!-- Plugin: EpicRename -->
+      <article id="EpicRename" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">EpicRename</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-both">SMP / CAMPUS</span>
+            <a href="https://www.spigotmc.org/resources/epicrename.4341/" class="plugin-link" target="_blank" rel="noopener">spigotmc.org</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>Rename your items with <code>/rename</code>. Remove the name with <code>/removename</code>.</p>
+<p>Set lore lines (purple tooltip text) with:</p>
+<ul>
+  <li><code>/lore &lt;line1|line2|line3&gt;</code> - Adds lore to the item in hand.</li>
+  <li><code>/setloreline &lt;lineNumber&gt; &lt;text&gt;</code> - Sets a certain line of lore on the item in hand.</li>
+  <li><code>/addloreline &lt;text&gt;</code> - Adds a line of lore on the item in hand.</li>
+  <li><code>/removeloreline &lt;lineNumber&gt;</code> - Removes a certain line of lore on the item in hand.</li>
+  <li><code>/insertloreline &lt;beforeLineNumber&gt; &lt;text&gt;</code> - Inserts a certain line of lore on the item in hand.</li>
+  <li><code>/removelore</code> - Removes all custom lore from the item in hand.</li>
+</ul>
+<p>Add or remove enchantment glow with <code>/glow</code> and <code>/removeglow</code>.<br>Hide or unhide enchantment info tooltips with <code>/hideenchantments</code> and <code>/unhideenchantments</code>.</p>
+        </div>
+      </article>
+
+      <!-- Plugin: EssentialsX -->
+      <article id="EssentialsX" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">EssentialsX</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-both">SMP / CAMPUS</span>
+            <a href="https://essentialsx.net/" class="plugin-link" target="_blank" rel="noopener">official website</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>Includes a large amount of server functionality, especially through extra plugins that extend it.<br><br><em>Campus server only:</em> <code>/item</code> is a safer equivalent of <code>/give</code>.</p>
+        </div>
+      </article>
+
+      <!-- Plugin: F3+N Perm -->
+      <article id="F3NPerm" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">F3+N Perm</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-campus">CAMPUS</span>
+            <a href="https://www.spigotmc.org/resources/f3nperm.46461/" class="plugin-link" target="_blank" rel="noopener">spigotmc.org</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>Use F3+N to switch your gamemode despite not being a server operator.</p>
+        </div>
+      </article>
+
+      <!-- Plugin: Fast Async Voxel Sniper -->
+      <article id="FAVS" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">Fast Async Voxel Sniper</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-campus">CAMPUS</span>
+            <a href="https://github.com/IntellectualSites/fastasyncvoxelsniper" class="plugin-link" target="_blank" rel="noopener">github</a> <a href="https://www.planetminecraft.com/blog/how-to-use-voxelsniper-2021/" class="plugin-link" target="_blank" rel="noopener">documentation</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>The VoxelSniper plugin allows you to make large-scale edits to the Minecraft world using a brush feature.<br><br><strong>This is an advanced tool. To use it, you must request access by filling out the form at #advanced-tools-request.</strong></p>
+        </div>
+      </article>
+
+      <!-- Plugin: Fast Async World Edit -->
+      <article id="FAWE" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">Fast Async World Edit</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-campus">CAMPUS</span>
+            <a href="https://github.com/IntellectualSites/FastAsyncWorldEdit" class="plugin-link" target="_blank" rel="noopener">github</a> <a href="https://intellectualsites.github.io/fastasyncworldedit-documentation/" class="plugin-link" target="_blank" rel="noopener">documentation</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>The FastAsyncWorldEdit plugin allows you to make large-scale edits to the Minecraft world using commands. You do not have access to all of the commands.<br><br><strong>This is an advanced tool. To use it, you must request access by filling out the form at #advanced-tools-request.</strong></p>
+        </div>
+      </article>
+
+      <!-- Plugin: Graves -->
+      <article id="Graves" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">Graves</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-smp">SMP</span>
+            <a href="https://www.spigotmc.org/resources/graves.74208/" class="plugin-link" target="_blank" rel="noopener">spigotmc.org</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>With the Graves plugin, items are stored in a gravestone that functions as a chest. You have 24 hours to get them back, and you can have a maximum of 18 graves at once. When you mine the gravestone, you are given 90% of the experience points (not levels) that you lost when you died. When you respawn after a death, you are given a compass that points to the location of your grave. Right clicking the compass gives you the number of blocks to your grave. The <code>/grave</code> command provides additional information about your graves.</p>
+        </div>
+      </article>
+
+      <!-- Plugin: GSit -->
+      <article id="GSit" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">GSit</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-both">SMP / CAMPUS</span>
+            <a href="https://www.spigotmc.org/resources/gsit-modern-sit-seat-and-chair-lay-and-crawl-plugin-1-13-1-20-4.62325/" class="plugin-link" target="_blank" rel="noopener">spigotmc.org</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>The GSit plugin allows you to use <code>/sit</code>, <code>/lay</code>, <code>/crawl</code>, <code>/spin</code>, and <code>/bellyflop</code>. You can also right click on stairs, slabs, or carpets to sit on them. Your hand must be empty for this to work.<br><br>In addition, you can right click players with an empty hand to ride them.</p>
+        </div>
+      </article>
+
+      <!-- Plugin: ImageMaps -->
+      <article id="ImageMaps" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">ImageMaps</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-both">SMP / CAMPUS</span>
+            <a href="https://www.spigotmc.org/resources/imagemaps.81851/" class="plugin-link" target="_blank" rel="noopener">spigotmc.org</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>The Imagemaps plugin allows you to place any image into the game. To use it:</p>
+<p>Submit your image for approval in the #smp-imagemaps channel (we respond quickly).</p>
+<p>Once approved, use the <code>/imagemaps place</code> command on the server:</p>
+<p><code>/imagemap place &lt;filename&gt; [frameInvisible] [frameFixed] [frameGlowing] [size]</code></p>
+<p>For example:<br><code>/imagemaps place bedrock false true true 4x3</code><br>will create an image named "bedrock", where the item frame IS NOT invisible, the frame IS fixed, the frame IS glowing, and has a size of 4 blocks wide by 3 blocks tall.</p>
+<p>[frameInvisible] and [frameFixed] can be modified after placement. Right click the item frame using a wooden hoe to toggle [frameInvisible], and shift+right click to toggle [frameFixed].</p>
+<p>The resolution of a 1x1 map is 128x128 pixels. To ensure images appear high quality, scale them to multiples of 128 before submission (e.g., 4x3 is 512x384 pixels).</p>
+        </div>
+      </article>
+
+      <!-- Plugin: Individual Join Messages -->
+      <article id="JoinMessages" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">Individual Join Messages</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-both">SMP / CAMPUS</span>
+            <a href="https://github.com/Ilya-Nalivaiko/IndividualJoinMessages" class="plugin-link" target="_blank" rel="noopener">github</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>The Individual Join Messages plugin allows you to have a customized message when you join and leave the server.<br><br>To set a custom join message, type <code>/setjoinmessage &lt;message&gt;</code>. To set a custom leave message, type <code>/setleavemessage &lt;message&gt;</code>.<br><br>To use this plugin, you must become a VIP by donating at least  to the Minecraft Club.<br><br><em>Developed in-house by @Ilya (Cat6172).</em></p>
+        </div>
+      </article>
+
+      <!-- Plugin: LightCleaner -->
+      <article id="LightCleaner" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">LightCleaner</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-campus">CAMPUS</span>
+            <a href="https://www.spigotmc.org/resources/light-cleaner.42469/" class="plugin-link" target="_blank" rel="noopener">spigotmc.org</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>The Light Cleaner plugin allows you to fix bugged lighting that sometimes occurs when using WorldEdit. To fix bugged lighting within your view radius, type <code>/cleanlight</code>. The full list of commands can be found at the linked page.<br><br><strong>This is an advanced tool. To use it, you must request access by filling out the form at #advanced-tools-request.</strong></p>
+        </div>
+      </article>
+
+      <!-- Plugin: MultiVerse -->
+      <article id="MultiVerse" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">MultiVerse</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-campus">CAMPUS</span>
+            <a href="https://github.com/Multiverse/Multiverse-Core" class="plugin-link" target="_blank" rel="noopener">github</a> <a href="https://intellectualsites.github.io/fastasyncworldedit-documentation/" class="plugin-link" target="_blank" rel="noopener">documentation</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p><strong>Campus server:</strong><br>To teleport to the Campus world, type <code>/mvtp campus</code><br>To teleport to the creative plots world, type <code>/mvtp freebuild</code><br>To add anchors and other useful features, see the linked documentation. Not all features are enabled or accessible.<br><br><strong>SMP server:</strong><br>A temporary end dimension exists to allow players to explore end cities endlessly without bloating the world file size. This dimension is reset regularly. Use the teleporter under the end exit portal to travel there.</p>
+        </div>
+      </article>
+
+      <!-- Plugin: Not Too Expensive -->
+      <article id="NotTooExpensive" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">Not Too Expensive</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-smp">SMP</span>
+            <a href="https://www.spigotmc.org/resources/not-too-expensive.86820/" class="plugin-link" target="_blank" rel="noopener">spigotmc.org</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>Removes the vanilla limit of 39 levels ("Too Expensive!") from anvils. If you have the levels, you can enchant it.</p>
+        </div>
+      </article>
+
+      <!-- Plugin: Parties -->
+      <article id="Parties" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">Parties</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-smp">SMP</span>
+            <a href="https://www.spigotmc.org/resources/parties-an-advanced-parties-manager.3709/" class="plugin-link" target="_blank" rel="noopener">spigotmc.org</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>The Parties plugin allows you to create private chat groups for factions.</p>
+<ul>
+  <li>To create a party: <code>/party create &lt;name&gt;</code></li>
+  <li>To join a party: You must be invited by a party member with <code>/party invite &lt;username&gt;</code></li>
+  <li>To kick someone: <code>/party kick &lt;username&gt;</code></li>
+  <li>To leave a party: <code>/party leave</code></li>
+  <li>To switch between global and party chat: <code>/party chat</code></li>
+  <li>To send a single message to party chat while staying in global chat: <code>/pc &lt;message&gt;</code></li>
+  <li>To set a description: <code>/party desc &lt;description&gt;</code></li>
+  <li>To view party info: <code>/party info &lt;party&gt;</code></li>
+  <li>To list all online parties: <code>/party list</code></li>
+</ul>
+        </div>
+      </article>
+
+      <!-- Plugin: PlayerStats -->
+      <article id="PlayerStats" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">PlayerStats</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-smp">SMP</span>
+            <a href="https://www.spigotmc.org/resources/playerstats.102347/" class="plugin-link" target="_blank" rel="noopener">spigotmc.org</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>The PlayerStats plugin allows you to view and share game statistics.<br><br>To view a statistic, type <code>/statistic &lt;statistic&gt; &lt;me / player / server / top&gt;</code>.<br><br>When typing the command, it shows (tab-completes) the list of statistics to choose from. The server option shows the total amount for everyone on the server, whereas top provides the top 10 players.<br><br><em>Note: The [share] button in chat was disabled due to a severe bug that would cause it to kick players.</em></p>
+        </div>
+      </article>
+
+      <!-- Plugin: PlayTime -->
+      <article id="PlayTime" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">PlayTime</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-both">SMP / CAMPUS</span>
+            <a href="https://www.spigotmc.org/resources/playtime.26016/" class="plugin-link" target="_blank" rel="noopener">spigotmc.org</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>The Playtime plugin allows you to view your total playtime on the server. To view your total playtime, type <code>/playtime</code>. To view the playtime of the top ten players on the server, type <code>/playtime top</code>.</p>
+        </div>
+      </article>
+
+      <!-- Plugin: Plot2Dynmap -->
+      <article id="Plot2Dynmap" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">Plot2Dynmap</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-campus">CAMPUS</span>
+            <a href="https://www.spigotmc.org/resources/plot2dynmap.1292/" class="plugin-link" target="_blank" rel="noopener">spigotmc.org</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>Integration between PlotSquared and Dynmap that shows claimed plots on the map.</p>
+        </div>
+      </article>
+
+      <!-- Plugin: PlotSquared -->
+      <article id="PlotSquared" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">PlotSquared</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-campus">CAMPUS</span>
+            <a href="https://www.spigotmc.org/resources/plotsquared-v7.77506/" class="plugin-link" target="_blank" rel="noopener">spigotmc.org</a> <a href="https://intellectualsites.gitbook.io/plotsquared/commands" class="plugin-link" target="_blank" rel="noopener">documentation</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>The PlotSquared plugin allows you to claim and modify build plots on the Freebuild world.<br><br>To claim the plot you are standing in, type <code>/plot claim</code>.<br><br>Many useful commands can be found in the documentation. Some may require you to have advanced status.</p>
+        </div>
+      </article>
+
+      <!-- Plugin: Pronouns -->
+      <article id="Pronouns" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">Pronouns</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-both">SMP / CAMPUS</span>
+            <a href="https://www.spigotmc.org/resources/pronouns.86199/" class="plugin-link" target="_blank" rel="noopener">spigotmc.org</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>The Pronouns plugin allows you to set your pronouns on the server and view other players' pronouns. To set your pronouns, type <code>/pronouns set</code>. To view another player's pronouns, type <code>/pronouns view</code>.</p>
+        </div>
+      </article>
+
+      <!-- Plugin: Self Control -->
+      <article id="SelfControl" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">Self Control</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-both">SMP / CAMPUS</span>
+            <a href="https://github.com/Ilya-Nalivaiko/SelfControl" class="plugin-link" target="_blank" rel="noopener">github</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>The Self Control plugin allows you to tell the server to kick or tempban you at a given time.</p>
+<p>Commands:</p>
+<ul>
+  <li><code>/kickme at [time]</code></li>
+  <li><code>/banme at [time]</code></li>
+</ul>
+<p>The time is in <code>h:mma</code> format (e.g., <code>1:34pm</code>) in Mountain Standard Time. This will happen on the next instance of the given time only (will not repeat the next day).</p>
+<p><code>/banme</code> is a 1-hour temporary ban. Do not ask moderators to unban you early.</p>
+<p><em>Developed in-house by @Ilya (Cat6172).</em></p>
+        </div>
+      </article>
+
+      <!-- Plugin: SilkSpawners -->
+      <article id="SilkSpawners" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">SilkSpawners</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-smp">SMP</span>
+            <a href="https://www.spigotmc.org/resources/silkspawners-versions-1-8-8-1-20-4.60063/" class="plugin-link" target="_blank" rel="noopener">spigotmc.org</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>Spawners will drop when broken with a Silk Touch pickaxe.</p>
+        </div>
+      </article>
+
+      <!-- Plugin: ttvChat -->
+      <article id="ttvChat" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">ttvChat</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-both">SMP / CAMPUS</span>
+            <a href="https://github.com/antoKeinanen/ttvChatPlugin" class="plugin-link" target="_blank" rel="noopener">github</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>With the TTV chat plugin, you can use Twitch emotes in the Minecraft in-game chat. They function just like they do on Twitch: just type the emote name.<br><br>The full list of emotes can be found with the <code>/listemotes</code> command in-game.</p>
+        </div>
+      </article>
+
+      <!-- Plugin: Simple Voice Chat -->
+      <article id="SimpleVoiceChat" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">Simple Voice Chat</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-both">SMP / CAMPUS</span>
+            <a href="https://modrinth.com/plugin/simple-voice-chat" class="plugin-link" target="_blank" rel="noopener">modrinth</a> <a href="https://modrinth.com/plugin/simple-voice-chat/versions?l=spigot" class="plugin-link" target="_blank" rel="noopener">client download</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>With the Simple Voice Chat plugin, you can use a built-in voice chat in Minecraft. This plugin supports proximity chat, meaning the farther you get away from other players, the quieter your voice becomes. It also has a Groups feature which is similar to a Discord voice chat, allowing you to talk with players from any distance in the game.<br><br>To use, all players who wish to talk to each other must install the mod (see client download link). Once in game, use <kbd>V</kbd> to open the main menu, and <kbd>G</kbd> to open Groups.<br><br><em>This mod is only available for Java Edition players.</em></p>
+        </div>
+      </article>
+
+      <!-- Plugin: WikiIntegration -->
+      <article id="WikiIntegration" class="plugin-card">
+        <header class="plugin-header">
+          <h2 class="plugin-name">WikiIntegration</h2>
+          <div class="plugin-meta">
+            <span class="badge badge-smp">SMP</span>
+            <a href="https://github.com/Ilya-Nalivaiko/Wiki_Integration" class="plugin-link" target="_blank" rel="noopener">github (currently private)</a>
+          </div>
+        </header>
+        <div class="plugin-content">
+          <p>The Wiki Integration plugin allows you to read pages from the SMP Wiki website from within Minecraft. This is a useful tool for new players to become familiar with the history of the server.<br><br>The command is <code>/wiki &lt;topic&gt;</code>, where the topic can be any wiki page. This includes player names, locations on the server, and lore events on the server.<br><br>You can read the full wiki linked on the top bar of the website.<br><br><em>Developed in-house by @Ilya (Cat6172).</em></p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <!-- Partners Section -->
+  <footer class="partners-section">
+    <div class="container">
+      <h2 class="partners-title">Our Partners</h2>
+      <div class="partners-grid">
+        <a href="https://bloom.host/" target="_blank" rel="noopener" class="partner-link" title="Bloom Host">
+          <img src="images/BloomHostLogo.png" alt="Bloom Host Logo" class="partner-logo-bloom">
+        </a>
+        <a href="https://www.2cml.org/" target="_blank" rel="noopener" class="partner-link" title="Second Collegiate Minecraft League">
+          <img src="images/2CML_Banner_Transparent-1.png" alt="2CML Logo" class="partner-logo-2cml">
+        </a>
       </div>
-      <p class="paragraph-8">The AFKPLUS plugin allows you to enter an AFK mode. An &quot;AFK&quot; title appears beside your name in the player list to show others that you are AFK. You automatically enter AFK mode after 2 minutes. However, you can manually enter the mode using <strong>/afk</strong>. While AFK, you cannot be attacked by mobs. However, other players can still attack you.</p>
     </div>
-    <div id="BuildersUtilities">
-      <h1 class="main-heading">Builder&#x27;s Utilities</h1>
-      <div id="w-node-_8ed68ebb-cd31-4844-1a4d-fdb4965c1e79-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div class="w-layout-cell">
-          <div class="tag">CAMPUS</div>
-        </div>
-        <div class="w-layout-cell cell">
-          <a href="https://www.spigotmc.org/resources/builders-utilities.42361/" class="link-main">spigotmc.org</a>
-        </div>
-      </div>
-      <p class="paragraph-8">Used to prevent lots of block interactions like fences not connecting to each other, but that started causing issues so we turned it off. Now it just stops gravity blocks. Also lots of useful tools like:<br><br>To open the banner creator menu, type  <strong>/banner</strong><br>o open the armor color menu, type  <strong>/armorcolor</strong>.<br>To open the secret blocks menu, type  <strong>/secretblocks</strong> [Requires advanced tools permission]<br>To toggle night vision, type  <strong>/nv</strong>.<br>To toggle noclip mode, which allows you to travel through blocks, type  <strong>/nc</strong>.<br>To toggle advanced fly mode, which disables the fly speedup and slowdown, type  <strong>/advfly</strong>.</p>
-    </div>
-    <div id="CoralStay">
-      <h1 class="main-heading">CoralStay</h1>
-      <div id="w-node-_709aa162-ec64-792e-a2f7-a3269d6a4e16-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div class="w-layout-cell">
-          <div class="tag">CAMPUS</div>
-        </div>
-        <div class="w-layout-cell cell">
-          <a href="https://www.spigotmc.org/resources/coralstay.60731/" class="link-main">spigotmc.org</a>
-        </div>
-      </div>
-      <p class="paragraph-8">Corals do not die out of water</p>
-    </div>
-    <div id="CustomHeads">
-      <h1 class="main-heading">CustomHeads</h1>
-      <div id="w-node-_5a6c40b1-82b1-3001-85f3-7032a32e7fbf-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div class="w-layout-cell">
-          <div class="tag">CAMPUS</div>
-        </div>
-        <div class="w-layout-cell cell">
-          <a href="https://www.spigotmc.org/resources/custom-heads-1-8-1-20.29057/" class="link-main">spigotmc.org</a>
-        </div>
-      </div>
-      <p class="paragraph-8">The CustomHeads plugin allows you to add player heads to the game.<br>Type <strong>/heads</strong> to access the heads menu.<br>From there, you can choose from a large selection of heads.<br>You can also get the head of a specific player by typing <strong>/heads get &lt;player&gt;</strong>.</p>
-    </div>
-    <div id="DecentHolograms">
-      <h1 class="main-heading">DecentHolograms</h1>
-      <div id="w-node-_67eb2820-2200-2d2d-9105-3cd33387f986-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div id="w-node-_67eb2820-2200-2d2d-9105-3cd33387f987-3ceda17c" class="w-layout-cell">
-          <div class="tag">CAMPUS</div>
-        </div>
-        <div id="w-node-_67eb2820-2200-2d2d-9105-3cd33387f98a-3ceda17c" class="w-layout-cell cell">
-          <a href="https://www.spigotmc.org/resources/decentholograms-1-8-1-20-4-papi-support-no-dependencies.96927/" class="link-main">spigotmc.org</a>
-        </div>
-        <div id="w-node-_67eb2820-2200-2d2d-9105-3cd33387f98d-3ceda17c" class="w-layout-cell">
-          <a href="https://wiki.decentholograms.eu/general/commands/hologram" class="link-main">documentation</a>
-        </div>
-      </div>
-      <p class="paragraph-8">Hovering text.<br>
-        <a href="https://wiki.decentholograms.eu/general/commands/hologram"><br></a><strong>This is an advanced tool. To use it, you must request access by filling out the form at ⁠advanced-tools-request.</strong>
-      </p>
-    </div>
-    <div  id="Dynmap">
-      <h1 class="main-heading">Dynmap</h1>
-      <div id="w-node-f429f444-e2ff-95a2-3876-cf2f1018970d-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div class="w-layout-cell">
-          <div class="tag">SMP/CAMPUS</div>
-        </div>
-        <div class="w-layout-cell cell">
-          <a href="https://legacy.curseforge.com/minecraft/bukkit-plugins/dynmap" class="link-main">curseforge</a>
-        </div>
-      </div>
-      <p class="paragraph-8">The Dynmap allows you to view a map of the world in your browser that includes the live location of all players. You can also create markers on the map to mark important locations.<br>‍<br>You can view the map using the links in the top navigation bar.<br>‍<br>Your location is visible to other players by default. To toggle your location, use <strong>/dynmap</strong> hide and <strong>/dynmap</strong> show.<br>‍<br>Place a sign to add markers to the map. On the first line, type [dynmap]. On the second and third lines, type the name of the marker. On the fourth line, type icon:&lt;icon-id&gt;. Break the sign to remove the marker from the map.</p>
-      <section class="section-5"><img src="images/imagemapsicons.png" loading="lazy" width="358" sizes="(max-width: 479px) 80vw, 358px" alt="" srcset="images/imagemapsicons-p-500.png 500w, images/imagemapsicons.png 768w" class="image-13"><img src="images/examplesign.png" loading="lazy" width="311" alt="" class="image-14"></section>
-    </div>
-    <div id="Elevators">
-      <h1 class="main-heading">Elevators</h1>
-      <div id="w-node-_6b12d63f-e3bd-78b6-d7f6-d77c246d866b-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div class="w-layout-cell">
-          <div class="tag">CAMPUS</div>
-        </div>
-        <div class="w-layout-cell cell">
-          <a href="https://www.spigotmc.org/resources/simple-elevators-1-8-1-20.44462/" class="link-main">spigotmc.org</a>
-        </div>
-      </div>
-      <p class="paragraph-8">The Simple Elevators plugin allows you to create working elevators. The full list of commands can be found at the plugin&#x27;s page linked above.<br>‍<br><strong>This is an advanced tool. To use it, you must request access by filling out the form at ⁠advanced-tools-request.</strong></p>
-    </div>
-    <div id="EpicRename">
-      <h1 class="main-heading">EpicRename</h1>
-      <div id="w-node-ec518fd5-9de9-9311-9d3f-af2202a56b56-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div class="w-layout-cell">
-          <div class="tag">SMP/CAMPUS</div>
-        </div>
-        <div class="w-layout-cell cell">
-          <a href="https://www.spigotmc.org/resources/epicrename.4341/" class="link-main">spigotmc.org</a>
-        </div>
-      </div>
-      <p class="paragraph-8">Rename your items with <strong>/rename</strong>. Remove the name with <strong>/removename</strong><br><br>Set lore lines (purple tooltip text) with:<br><strong>/lore &lt;line1|line2|line3&gt;</strong> Adds lore to the item in hand.<br><strong>/setloreline &lt;lineNumber&gt; &lt;text&gt;</strong> Sets a certain line of lore on the item in hand.<br><strong>/addloreline &lt;text&gt;</strong> Adds a line of lore on the item in hand.<br><strong>/removeloreline &lt;lineNumber&gt;</strong> Remove a certain line of lore on the item in hand.<br><strong>/insertloreline &lt;beforeLineNumber&gt; &lt;text&gt;</strong> Insert a certain line of lore on the item in hand.<br><strong>/removelore</strong> Removes any custom lore from the item in hand.<br><br>Add or remove enchantment glow with <strong>/glow</strong> and <strong>/removeglow</strong><br>Hide or unhide enchantment info tooltips with <strong>/hideenchantments</strong> and <strong>/unhideenchantments</strong></p>
-    </div>
-    <div id="EssentialsX">
-      <h1 class="main-heading">EssentialsX</h1>
-      <div id="w-node-_5ab4ac7b-d43d-0d35-b7c2-77ea11d91fac-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div class="w-layout-cell">
-          <div class="tag">SMP/CAMPUS</div>
-        </div>
-        <div class="w-layout-cell cell">
-          <a href="https://essentialsx.net/" class="link-main">official website</a>
-        </div>
-      </div>
-      <p class="paragraph-8">Includes a large amount of functionality, especially thought extra plugins that extend it.<br><br>Campus server only: <strong>/item</strong> is a safer equivalent of <strong>/give</strong></p>
-    </div>
-    <div id="F3NPerm">
-      <h1 class="main-heading">F3+N Perm</h1>
-      <div id="w-node-c7809fcb-5880-f91f-6257-941f1b67a718-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div class="w-layout-cell">
-          <div class="tag">CAMPUS</div>
-        </div>
-        <div class="w-layout-cell cell">
-          <a href="https://www.spigotmc.org/resources/f3nperm.46461/" class="link-main">spigotmc.org</a>
-        </div>
-      </div>
-      <p class="paragraph-8">Use F3+N to switch your gamemode despite not being a server operator.</p>
-    </div>
-    <div id="FAVS">
-      <h1 class="main-heading">Fast Async Voxel Sniper</h1>
-      <div id="w-node-_44a3af45-b3b5-6b41-5703-1de87d014342-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div id="w-node-_44a3af45-b3b5-6b41-5703-1de87d014343-3ceda17c" class="w-layout-cell">
-          <div class="tag">CAMPUS</div>
-        </div>
-        <div id="w-node-_44a3af45-b3b5-6b41-5703-1de87d014346-3ceda17c" class="w-layout-cell cell">
-          <a href="https://github.com/IntellectualSites/fastasyncvoxelsniper" class="link-main">github</a>
-        </div>
-        <div id="w-node-c73fbfe5-3d81-e01b-b433-d6e72866286d-3ceda17c" class="w-layout-cell">
-          <a href="https://www.planetminecraft.com/blog/how-to-use-voxelsniper-2021/" class="link-main">documentation</a>
-        </div>
-      </div>
-      <p class="paragraph-8">The VoxelSniper plugin allows you to make large-scale edits to the Minecraft world using a brush feature.<br><br><strong>This is an advanced tool. To use it, you must request access by filling out the form at ⁠advanced-tools-request.</strong></p>
-    </div>
-    <div id="FAWE">
-      <h1 class="main-heading">Fast Async World Edit</h1>
-      <div id="w-node-e83c9d37-1903-212a-1de8-bc0841ac7c5a-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div id="w-node-e83c9d37-1903-212a-1de8-bc0841ac7c5b-3ceda17c" class="w-layout-cell">
-          <div class="tag">CAMPUS</div>
-        </div>
-        <div id="w-node-e83c9d37-1903-212a-1de8-bc0841ac7c5e-3ceda17c" class="w-layout-cell cell">
-          <a href="https://github.com/IntellectualSites/FastAsyncWorldEdit" class="link-main">github</a>
-        </div>
-        <div id="w-node-e83c9d37-1903-212a-1de8-bc0841ac7c61-3ceda17c" class="w-layout-cell">
-          <a href="https://intellectualsites.github.io/fastasyncworldedit-documentation/" class="link-main">documentation</a>
-        </div>
-      </div>
-      <p class="paragraph-8">The FastAsyncWorldEdit plugin allows you to make large-scale edits to the Minecraft world using commands. You do not have access to all of the commands.<br>‍<br><strong>This is an advanced tool. To use it, you must request access by filling out the form at ⁠advanced-tools-request.</strong></p>
-    </div>
-    <div id="Graves">
-      <h1 class="main-heading">Graves</h1>
-      <div id="w-node-a5d1e249-a887-fbb3-ff6c-bda8dcde853b-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div class="w-layout-cell">
-          <div class="tag">SMP</div>
-        </div>
-        <div class="w-layout-cell cell">
-          <a href="https://www.spigotmc.org/resources/graves.74208/" class="link-main">spigotmc.org</a>
-        </div>
-      </div>
-      <p class="paragraph-8">With the Graves plugin, items are stored in a gravestone that functions as a chest. You have 24 hours to get them back, and you can have a maximum of 18 graves at once. When you mine the gravestone, you are given 90% of the experience points (not levels) that you lost when you died. When you respawn after a death, you are given a compass that points to the location of your grave. Right clicking the compass gives you the number of blocks to your grave. The <strong>/grave</strong> command provides additional information about your graves.</p>
-    </div>
-    <div id="GSit">
-      <h1 class="main-heading">GSit</h1>
-      <div id="w-node-_84dc4f9e-b5f3-2c5a-3f00-d895cf4eccb7-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div class="w-layout-cell">
-          <div class="tag">SMP/CAMPUS</div>
-        </div>
-        <div class="w-layout-cell cell">
-          <a href="https://www.spigotmc.org/resources/gsit-modern-sit-seat-and-chair-lay-and-crawl-plugin-1-13-1-20-4.62325/" class="link-main">spigotmc.org</a>
-        </div>
-      </div>
-      <p class="paragraph-8">The Gsit plugin allows you to use <strong>/sit</strong>, <strong>/lay</strong>, <strong>/crawl</strong>, <strong>/spin</strong>, and <strong>/bellyflop</strong>. You can also right click on stairs, slabs, or carpets to sit on them. Your hand must be empty for this to work.<br><br>In addition, you can right click players with an empty hand to ride them.</p>
-    </div>
-    <div id="ImageMaps">
-      <h1 class="main-heading">ImageMaps</h1>
-      <div id="w-node-e0915ec4-0782-adf7-43c9-71bbfead0520-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div class="w-layout-cell">
-          <div class="tag">SMP/CAMPUS</div>
-        </div>
-        <div class="w-layout-cell cell">
-          <a href="https://www.spigotmc.org/resources/imagemaps.81851/" class="link-main">spigotmc.org</a>
-        </div>
-      </div>
-      <p class="paragraph-8">The Imagemaps plugin allows you to place any image into the game. To use it:<br>Submit your image for approval in the ⁠smp-imagemaps channel (we respond quickly)<br><br>Once approved, use the <strong>/imagemaps</strong> place command on the server:<br>‍<br><strong>/imagemap place &lt;filename&gt; [frameInvisible] [frameFixed] [frameGlowing] [size]</strong><br>‍<br>For example,<br>     <strong>/imagemaps place bedrock false true true 4x3</strong><br>will create an image that has the name “bedrock”, where the item frame IS NOT invisible, the frame IS fixed, the frame IS glowing, and has a size of 4 blocks wide by 3 blocks tall.<br><br>[frameInvisible] and [frameFixed] can be modified after the image has been placed. Right click the item frame using a wooden hoe to toggle [frameInvisible], and shift+right click the item frame to toggle [frameFixed].<br><br>The resolution of a 1x1 map is 128x128 pixels. To ensure your images appear high quality, consider scaling them to multiples of 128 before submission. For example, a 4x3 image would be 512x384 pixels.</p>
-    </div>
-    <div id="JoinMessages">
-      <h1 class="main-heading">Individual Join Messages</h1>
-      <div id="w-node-_249d9ae2-cd25-491d-48df-61dd43da030a-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div class="w-layout-cell">
-          <div class="tag">SMP/CAMPUS</div>
-        </div>
-        <div class="w-layout-cell cell">
-          <a href="https://github.com/Ilya-Nalivaiko/IndividualJoinMessages" class="link-main">github</a>
-        </div>
-      </div>
-      <p class="paragraph-8">The Individual Join Messages plugin allows you to have a customized message when you join and leave the server.<br><br>To set a custom join message, type <strong>/setjoinmessage &lt;message&gt;</strong>. To set a custom leave message, type <strong>/setleavemessage &lt;message&gt;</strong><br><br>To use this plugin, you must become a VIP by donating at least $5 to the Minecraft Club.<br><br>Developed in-house by @Ilya (Cat6172).</p>
-    </div>
-    <div id="LightCleaner">
-      <h1 class="main-heading">LightCleaner</h1>
-      <div id="w-node-b2dc7d91-7b8f-876b-12cd-32e59960b516-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div class="w-layout-cell">
-          <div class="tag">CAMPUS</div>
-        </div>
-        <div class="w-layout-cell cell">
-          <a href="https://www.spigotmc.org/resources/light-cleaner.42469/" class="link-main">spigotmc.org</a>
-        </div>
-      </div>
-      <p class="paragraph-8">The Light Cleaner plugin allows you to fix bugged lighting that sometimes occurs when using WorldEdit. To fix bugged lighting within your view radius, type <strong>/cleanlight</strong>. The full list of commands can be found at the linked page.<br><br><strong>This is an advanced tool. To use it, you must request access by filling out the form at ⁠advanced-tools-request.</strong></p>
-    </div>
-    <div id="MultiVerse">
-      <h1 class="main-heading">MultiVerse</h1>
-      <div id="w-node-e0a65508-0a2b-8afb-d847-89b971ad1801-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div id="w-node-e0a65508-0a2b-8afb-d847-89b971ad1802-3ceda17c" class="w-layout-cell">
-          <div class="tag">CAMPUS</div>
-        </div>
-        <div id="w-node-e0a65508-0a2b-8afb-d847-89b971ad1805-3ceda17c" class="w-layout-cell cell">
-          <a href="https://github.com/Multiverse/Multiverse-Core" class="link-main">github</a>
-        </div>
-        <div id="w-node-e0a65508-0a2b-8afb-d847-89b971ad1808-3ceda17c" class="w-layout-cell">
-          <a href="https://intellectualsites.github.io/fastasyncworldedit-documentation/" class="link-main">documentation</a>
-        </div>
-      </div>
-      <p class="paragraph-8">Campus server:<br>To teleport to the Campus world, <strong>/mvtp campus</strong><br>To teleport to the creative plots world, <strong>/mvtp freebuild</strong><br>To add anchors and other useful features, see the linked documentation. Not all features are enabled or accessible.<br><br>SMP server:<br>A temporary end dimension exists to allow players to explore end cities endlessly without bloating the world file size. This dimension is reset regularly. Use the teleporter under the end exit portal to travel there.</p>
-    </div>
-    <div id="NotTooExpensive">
-      <h1 class="main-heading">Not Too Expensive</h1>
-      <div id="w-node-_1a69ecfb-c15a-164c-a831-c10f485e234c-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div class="w-layout-cell">
-          <div class="tag">SMP</div>
-        </div>
-        <div class="w-layout-cell cell">
-          <a href="https://www.spigotmc.org/resources/not-too-expensive.86820/" class="link-main">spigotmc.org</a>
-        </div>
-      </div>
-      <p class="paragraph-8">Removes the vanilla limit of 39 levels (&quot;too expensive!&quot;) from anvils. If you have the levels, you can enchant it.</p>
-    </div>
-    <div id="Parties">
-      <h1 class="main-heading">Parties</h1>
-      <div id="w-node-fb4d59da-05be-a3c8-8801-a80b343eb76b-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div class="w-layout-cell">
-          <div class="tag">SMP</div>
-        </div>
-        <div class="w-layout-cell cell">
-          <a href="https://www.spigotmc.org/resources/parties-an-advanced-parties-manager.3709/" class="link-main">spigotmc.org</a>
-        </div>
-      </div>
-      <p class="paragraph-8">The Parties plugin allows you create private chat groups for factions.<br><br>To create a party, type  <strong>/party create &lt;name&gt;</strong>. To join a party, you have to be invited by an existing party member with  <strong>/party invite &lt;username&gt;</strong>. To kick someone from a party, type <strong>/party kick &lt;username&gt;</strong>. To leave a party, type  <strong>/party leave</strong>.<br><br>You can switch between the global chat and party chat by typing  <strong>/party chat</strong>. All of your messages will be sent in global chat or party chat, depending on which mode you are in. You can remain in global chat and send specific messages in party chat using <strong>/pc &lt;message&gt;</strong>. This is the same thing as <strong>/tell</strong>, except for parties.<br><br>You can set a description for your party by typing  <strong>/party desc &lt;description&gt;</strong>. You can view the info for party by typing  <strong>/party info &lt;party&gt;</strong>. You can list all online parties by typing <strong>/party list</strong></p>
-    </div>
-    <div id="PlayerStats">
-      <h1 class="main-heading">PlayerStats</h1>
-      <div id="w-node-_7c623bcc-032b-7b4c-9ba2-cf472c726f21-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div class="w-layout-cell">
-          <div class="tag">SMP</div>
-        </div>
-        <div class="w-layout-cell cell">
-          <a href="https://www.spigotmc.org/resources/playerstats.102347/" class="link-main">spigotmc.org</a>
-        </div>
-      </div>
-      <p class="paragraph-8">The PlayerStats plugin allows you to view and share game statistics.<br><br>To view a statistic, type  <strong>/statistic &lt;statistic&gt; &lt;me / player / server / top&gt;</strong> <br><br>When typing the command, it shows (tab-completes) the list of statistics to choose from. The server option shows the total amount for everyone in the server, whereas top provides the top 10 players.<br><br>Previously, you would be able to press the [share] button in chat to share your statistics. This was disabled due to a severe bug that would cause it to kick players.</p>
-    </div>
-    <div id="PlayTime">
-      <h1 class="main-heading">PlayTime</h1>
-      <div id="w-node-c48fe3d7-973f-f4d1-388d-4fd751e71437-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div class="w-layout-cell">
-          <div class="tag">SMP/CAMPUS</div>
-        </div>
-        <div class="w-layout-cell cell">
-          <a href="https://www.spigotmc.org/resources/playtime.26016/" class="link-main">spigotmc.org</a>
-        </div>
-      </div>
-      <p class="paragraph-8">The Playtime plugin allows you to view your total playtime on the server. To view your total playtime, type  <strong>/playtime</strong>. To view the playtime of the top ten players on the server, type  <strong>/playtime top</strong></p>
-    </div>
-    <div id="Plot2Dynmap">
-      <h1 class="main-heading">Plot2Dynmap</h1>
-      <div id="w-node-_40e5e5d0-fd7f-11f9-d848-cb19c07c245e-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div class="w-layout-cell">
-          <div class="tag">CAMPUS</div>
-        </div>
-        <div class="w-layout-cell cell">
-          <a href="https://www.spigotmc.org/resources/plot2dynmap.1292/" class="link-main">spigotmc.org</a>
-        </div>
-      </div>
-      <p class="paragraph-8">Integration between PlotSquared and Dynmap that shows claimed plots on the map</p>
-    </div>
-    <div id="PlotSquared">
-      <h1 class="main-heading">PlotSquared</h1>
-      <div id="w-node-ede62cb9-94ca-7a72-f200-19e8b3450811-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div id="w-node-ede62cb9-94ca-7a72-f200-19e8b3450812-3ceda17c" class="w-layout-cell">
-          <div class="tag">CAMPUS</div>
-        </div>
-        <div id="w-node-ede62cb9-94ca-7a72-f200-19e8b3450815-3ceda17c" class="w-layout-cell cell">
-          <a href="https://www.spigotmc.org/resources/plotsquared-v7.77506/" class="link-main">spigotmc.org</a>
-        </div>
-        <div id="w-node-_18b74ec9-fa5d-f054-22c5-64bbf5d0e32f-3ceda17c" class="w-layout-cell">
-          <a href="https://intellectualsites.gitbook.io/plotsquared/commands" class="link-main">documentation</a>
-        </div>
-      </div>
-      <p class="paragraph-8">The PlotSquared plugin allows you to claim and modify build plots on the Freebuild world.<br><br>To claim the plot you are standing in, type <strong>/plot claim</strong><br><br>Many useful commands can be found in the documentation. Some may require you to have advanced status.</p>
-    </div>
-    <div id="Pronouns">
-      <h1 class="main-heading">Pronouns</h1>
-      <div id="w-node-_4dbf346a-32f8-3b04-a4fc-e09742c78240-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div class="w-layout-cell">
-          <div class="tag">SMP/CAMPUS</div>
-        </div>
-        <div class="w-layout-cell cell">
-          <a href="https://www.spigotmc.org/resources/pronouns.86199/" class="link-main">spigotmc.org</a>
-        </div>
-      </div>
-      <p class="paragraph-8">The Pronouns plugin allows you to set your pronouns on the server and view other players&#x27; pronouns. To set your pronouns, type  <strong>/pronouns set</strong>. To view another player&#x27;s pronouns, type  <strong>/pronouns view</strong></p>
-    </div>
-    <div id="SelfControl">
-      <h1 class="main-heading">Self Control</h1>
-      <div id="w-node-_059f45e4-ac49-2250-cec0-d1674b89c9e3-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div class="w-layout-cell">
-          <div class="tag">SMP/CAMPUS</div>
-        </div>
-        <div class="w-layout-cell cell">
-          <a href="https://github.com/Ilya-Nalivaiko/SelfControl" class="link-main">github</a>
-        </div>
-      </div>
-      <p class="paragraph-8">The Self Control plugin allows you to tell the server to kick or tempban you at a given time. <br>‍<br>Commands:<br><strong>/kickme at [time]</strong><br><strong>/banme at [time]</strong><br><br>The time is in h:mma format (ex. 1:34pm) in Mountain Standard Time. This will happen on the next instance of the given time only (will not repeat the next day).<br><br><strong>/banme</strong> is a 1 hour temporary ban. Do not ask the moderators to unban you early.<br><br>Developed in-house by @Ilya (Cat6172).</p>
-    </div>
-    <div id="SilkSpawners">
-      <h1 class="main-heading">SilkSpawners</h1>
-      <div id="w-node-_35772892-2207-3a9c-8e18-97496e3f7802-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div class="w-layout-cell">
-          <div class="tag">SMP</div>
-        </div>
-        <div class="w-layout-cell cell">
-          <a href="https://www.spigotmc.org/resources/silkspawners-versions-1-8-8-1-20-4.60063/" class="link-main">spigotmc.org</a>
-        </div>
-      </div>
-      <p class="paragraph-8">Spawners will drop when broken with a Silk Touch pickaxe</p>
-    </div>
-    <div id="ttvChat">
-      <h1 class="main-heading">ttvChat</h1>
-      <div id="w-node-_5b92d277-34bf-1d94-16bc-343d00746459-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div class="w-layout-cell">
-          <div class="tag">SMP/CAMPUS</div>
-        </div>
-        <div class="w-layout-cell cell">
-          <a href="https://github.com/antoKeinanen/ttvChatPlugin" class="link-main">github</a>
-        </div>
-      </div>
-      <p class="paragraph-8">With the TTV chat plugin, you can use Twitch emotes in the Minecraft in-game chat. They function just like they do on Twitch: just type the emote name.<br><br>The full list of emotes can be found with the <strong>/listemotes</strong> command in-game.</p>
-    </div>
-    <div id="SimpleVoiceChat">
-      <h1 class="main-heading">Simple Voice Chat</h1>
-      <div id="w-node-_0ba14f03-76fb-97b6-247f-1b4e4346fe56-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div id="w-node-_0ba14f03-76fb-97b6-247f-1b4e4346fe57-3ceda17c" class="w-layout-cell">
-          <div class="tag">SMP/CAMPUS</div>
-        </div>
-        <div id="w-node-_0ba14f03-76fb-97b6-247f-1b4e4346fe5a-3ceda17c" class="w-layout-cell cell">
-          <a href="https://modrinth.com/plugin/simple-voice-chat" class="link-main">modrinth</a>
-        </div>
-        <div id="w-node-_0ba14f03-76fb-97b6-247f-1b4e4346fe5d-3ceda17c" class="w-layout-cell">
-          <a href="https://modrinth.com/plugin/simple-voice-chat/versions?l=spigot" class="link-main">client download</a>
-        </div>
-      </div>
-      <p class="paragraph-8">With the Simple Voice Chat plugin, you can use a built-in voice chat in Minecraft. This plugin supports proximity chat, meaning the farther you get away from other players, the quieter your voice becomes. It also has a Groups feature which is similar to a Discord voice chat, allowing you to talk with players from any distance in the game.<br><br>To use, all players who wish to talk to each other must install the mod (see client download link). Once in game, use V to open the main menu, and G to open Groups.<br><br>This mod is only available for Java Edition players.</p>
-    </div>
-    <div id="WikiIntegration">
-      <h1 class="main-heading">WikiIntegration</h1>
-      <div id="w-node-ec7f0cef-8960-7b49-9dd8-bc64c2eeb9cf-3ceda17c" class="w-layout-layout quick-stack wf-layout-layout">
-        <div class="w-layout-cell">
-          <div class="tag">SMP</div>
-        </div>
-        <div class="w-layout-cell cell">
-          <a href="https://github.com/Ilya-Nalivaiko/Wiki_Integration" class="link-main">github (currently private)</a>
-        </div>
-      </div>
-      <p class="paragraph-8">The Wiki Integration plugin allows you to read pages from the SMP Wiki website from within Minecraft. This is a useful tool for new players to become familiar with the history of the server. <br><br>The command is <strong>/wiki &lt;topic&gt;</strong>, where the topic can be any wiki page. This includes player names, locations on the server, and lore events on the server.<br><br>You can read the full wiki linked on the top bar of the website.<br><br>Developed in-house by @Ilya (Cat6172).</p>
-    </div>
-  </div>
-  <section class="partners">
-    <div class="container-9">
-      <h2 class="partners-heading">Our Partners</h2>
-      <div class="clients-wrapper-2">
-        <a href="https://bloom.host/" class="link-block-6 w-inline-block"><img src="images/BloomHostLogo.png" loading="lazy" width="280" sizes="(max-width: 479px) 61vw, 280px" alt="Arise Health logo" srcset="images/BloomHostLogo-p-500.png 500w, images/BloomHostLogo-p-800.png 800w, images/BloomHostLogo-p-1080.png 1080w, images/BloomHostLogo-p-1600.png 1600w, images/BloomHostLogo-p-2000.png 2000w, images/BloomHostLogo-p-2600.png 2600w, images/BloomHostLogo.png 2810w" class="clients-image-2"></a>
-        <a href="https://www.2cml.org/" class="link-block-7 w-inline-block"><img src="images/2CML_Banner_Transparent-1.png" loading="lazy" width="413" sizes="(max-width: 479px) 88vw, 413px" alt="The Paak logo" srcset="images/2CML_Banner_Transparent-1-p-500.png 500w, images/2CML_Banner_Transparent-1-p-800.png 800w, images/2CML_Banner_Transparent-1-p-1080.png 1080w, images/2CML_Banner_Transparent-1-p-1600.png 1600w, images/2CML_Banner_Transparent-1-p-2000.png 2000w, images/2CML_Banner_Transparent-1-p-2600.png 2600w, images/2CML_Banner_Transparent-1-p-3200.png 3200w, images/2CML_Banner_Transparent-1.png 6400w" class="clients-image-3"></a>
-      </div>
-    </div>
-  </section>
-  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=657d3943eac136d96df5fbc0" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-  <script src="js/webflow.js" type="text/javascript"></script>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
 </body>
 </html>
